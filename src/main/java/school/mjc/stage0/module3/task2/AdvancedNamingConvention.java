@@ -1,16 +1,17 @@
 package school.mjc.stage0.module3.task2;
 
-public class advancedNamingConvention {
-    private static final int adult_age = 18;
+public class AdvancedNamingConvention {
+    private static final int ADULT_AGE = 18; // Constants should be in uppercase with underscore separators
 
-    private int AGE;
-    private int phoneNumber;
+    private int age; // Field names should be in camelCase
+    private int phoneNumber; // Field names should be in camelCase
 
-    void CAllToFriend() {
+    void callToFriend() { // Method names should be in camelCase
         //some code
     }
 
-    void callByNumber(int Number) {
+    void callByNumber(int number) { // Method names should be in camelCase, parameters too
         //some code
     }
 }
+

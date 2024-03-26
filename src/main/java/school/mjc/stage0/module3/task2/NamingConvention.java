@@ -2,14 +2,15 @@ package school.mjc.stage0.module3.task2;
 
 public class NamingConvention {
     public static void main(String[] args) {
-        int _variable = 10;
-        int variable_One = 1;
-        int variableTwo = 2;
-        int variable_three = 3;
-        final int VARIABLEFOUR = 4;
-        final int VARIABLEfIVE = 5;
-        int VariableSix = 6;
-        int variableseven = 7;
-        int VariableEight = 8;
+        int _variable = 10; // Variable names can start with underscore but it's not recommended
+        int variableOne = 1; // Following camelCase convention
+        int variableTwo = 2; // Following camelCase convention
+        int variableThree = 3; // Following camelCase convention
+        final int VARIABLE_FOUR = 4; // Following snake_case convention for constants
+        final int VARIABLE_FIVE = 5; // Following snake_case convention for constants
+        int variableSix = 6; // Following camelCase convention
+        int variableSeven = 7; // Following camelCase convention
+        int variableEight = 8; // Following camelCase convention
     }
 }
+
